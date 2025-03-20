@@ -1,0 +1,72 @@
+﻿[
+	{
+		"link": "README.md",
+		"char_ofs": 0,
+		"byte_ofs": 0
+	},
+	{
+		"link": "1-intro/README.md",
+		"char_ofs": 275,
+		"byte_ofs": 531
+	},
+	{
+		"link": "1-intro/1-ladder-edit.md",
+		"char_ofs": 354,
+		"byte_ofs": 650
+	},
+	{
+		"link": "2-ladder-edit-start/README.md",
+		"char_ofs": 979,
+		"byte_ofs": 1767
+	},
+	{
+		"link": "2-ladder-edit-start/1-initial_screen.md",
+		"char_ofs": 1027,
+		"byte_ofs": 1878
+	},
+	{
+		"link": "3-ladder-diagram-edit/README.md",
+		"char_ofs": 2219,
+		"byte_ofs": 3632
+	},
+	{
+		"link": "3-ladder-diagram-edit/1-basic-edit.md",
+		"char_ofs": 2244,
+		"byte_ofs": 3697
+	},
+	{
+		"link": "3-ladder-diagram-edit/8-file/README.md",
+		"char_ofs": 2866,
+		"byte_ofs": 4660
+	},
+	{
+		"link": "3-ladder-diagram-edit/8-file/1-file-save.md",
+		"char_ofs": 2905,
+		"byte_ofs": 4747
+	},
+	{
+		"link": "3-ladder-diagram-edit/8-file/2-file-load.md",
+		"char_ofs": 3996,
+		"byte_ofs": 6697
+	},
+	{
+		"link": "3-ladder-diagram-edit/8-file/3-new-file.md",
+		"char_ofs": 4673,
+		"byte_ofs": 7716
+	},
+	{
+		"link": "4-monitoring/README.md",
+		"char_ofs": 5275,
+		"byte_ofs": 8719
+	},
+	{
+		"link": "4-monitoring/1-plc-monitoring.md",
+		"char_ofs": 5305,
+		"byte_ofs": 8797
+	},
+	{
+		"link": "4-monitoring/2-checksum-compare.md",
+		"char_ofs": 6357,
+		"byte_ofs": 10429
+	}
+]
