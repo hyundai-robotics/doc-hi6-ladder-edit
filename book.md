@@ -74,27 +74,74 @@ Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 
     </tr>
 </table>
 
-래더 다이어그램의 편집에 대해서 설명드립니다.# 3.1 기본 편집
+래더 다이어그램의 편집에 대해서 설명드립니다.# 3.1 요소 삽입
 래더 다이어그램을 편집하는 방식은 HRLadder의 편집 방식과 유사하므로 더 자세한 설명은 HRLadder 설명서의 기본 편집 항목을 확인하여 주십시오. 
 
-1. 모든 요소의 삽입은 하단 버튼 바의 삽입 버튼을 통해 확인하실 수 있습니다.<br>
+- 모든 요소의 삽입은 하단 버튼 바의 삽입 버튼을 통해 확인하실 수 있습니다.<br>
     <img src="../_assets/f_btn_insert.png" width ="355" ><br>
     <img src="../_assets/f_btn_elements.png" width ="500" ><br><br>
-    
-    다른 요소들을 확인하고 싶다면 이전/다음 버튼을 터치하시면 됩니다.<br>
-    <img src="../_assets/insert_move_next_prev.png" width ="500" ><br><br>
 
-3. 브랜치 편집을 쉽게 하기 위한 브랜치 간격 옵션입니다.<br>
+- 다른 요소들을 확인하고 싶다면 이전/다음 버튼을 터치하시면 됩니다.<br>
+<img src="../_assets/insert_move_next_prev.png" width ="500" ><br><br># 3.2 편집 기능
+다른 편집 기능들도 HRLadder의 기능과 동일합니다.<br>
+더 자세한 편집 방법은 HRLadder 설명서의 래더 다이어그램 편집 항목을 확인해 주십시오.
+1. 브랜치 편집을 쉽게 하기 위한 브랜치 간격 옵션입니다.<br>
     하단 버튼 바 보기 버튼을 누른 후 브랜치 간격 버튼을 누르시면 됩니다.<br>
     <img src="../_assets/f_btn_layout.png" width ="355" ><br>
-    <img src="../_assets/f_btn_branch_gap.png" width ="210" ><br># 3.8 래더 파일
+    <img src="../_assets/f_btn_branch_gap.png" width ="210" ><br>
+2. 잘라내기, 복사, 붙여넣기, 실행 취소, 다시 실행 기능은 하단 버튼 바 편집을 누르면 확인하실 수 있습니다.<br>
+    <img src="../_assets/f_btn_edit.png" width ="355"><br>
+    <img src="../_assets/f_btn_edit_menu.png" width ="430">
+
+3. [Del]키를 누르면 선택된 명령어들, 혹은 선택된 Rung 이나 브랜치가 삭제됩니다.<br><br>
+# 3.3 태그형식
+릴레이 인덱스 중 1비트 데이터는 1 비트, 8비트, 16비트, 32비트 4가지 형식 중 하나로 입력하고 표시될 수 있습니다.<br>
+{% hint style="info" %}  
+릴레이 표기에 대한 자세한 설명은 
+[Hi6 내장 PLC 릴레이의 표기 설명서 ](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)를 참고해 주십시오  
+{% endhint %}
+<br>
+
+래더 편집 기능에서는 HRLadder와 동일한 방식으로 4가지 형식 중 1가지를 선택하여 래더 다이어그램에 보여주는 기능을 가지고 있습니다.<br>
+
+보기 버튼을 누른후 태그형식 버튼을 누릅니다. <br>
+<img src="../_assets/f_btn_layout.png" width ="400"><br>
+<img src="../_assets/f_btn_tag_format.png" width ="240"><br>
+
+태그형식 버튼을 누를 때 마다, 표시 형식은 1비트 -> 8비트 -> 16비트 -> 32비트로 순환합니다.# 3.4 찾기 및  바꾸기
+래더 파일의 전체를 검색하여 지정한 문자열을 찾아내거나 찾은 문자열을 지정한 다른 문자열로 바꾸는 기능입니다.<br>
+
+HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder 설명서의 찾기와 바꾸기 항목을 참고해 주십시오.<br>
+
+하단 버튼바 편집 > 찾기 및 바꾸기 버튼을 클릭하면<br>
+    <img src="../_assets/f_btn_edit.png" width ="415" ><br>
+    <img src="../_assets/f_btn_find_and_change.png" width ="500" ><br>
+<br>
+찾기 및 바꾸기 대화상자가 나타납니다.<br>
+<img src="../_assets/find_and_change_dlg.png" width = "" ><br>
+
+{% hint style="info" %}  
+문자 입력은 전부 바꾸기 버튼 아래의 키보드 버튼을 누른 후 소프트 키보드를 사용하시면 됩니다.
+{% endhint %}  
+# 3.5 문법 검사
+작성된 래더 다이어그램이 문법적으로 틀린 곳이 없는 지 체크하는 기능입니다.
+
+1. 하단 버튼 바 도구 > 문법 검사 버튼을 클릭하십시오.<br>
+    <img src="../_assets/f_btn_tool.png" width ="400" ><br>
+    <img src="../_assets/f_btn_chk_syntax.png" width ="320" ><br>
+
+2. 에러가 존재한다면 에러 총 갯수와 첫 에러의 위치 및 내용이 담긴 메시지가 팝업됩니다.<br><br>
+    <img src="../_assets/error_message.png" width ="400" ><br><br>
+    만약 에러가 없다면 "No Error" 라는 문구가 담긴 메시지가 팝업됩니다.<br>
+    <img src="../_assets/no_error_message.png" width ="400" ><br>
+# 3.6 래더 파일
 파일 저장 및 불러오는 방법에 대한 설명입니다.
-# 3.8.1 파일 저장하기
+# 3.6.1 파일 저장하기
 래더 파일을 저장하는 방법입니다.
 
 1.  하단 버튼 바 파일 > 저장하기 버튼을 누릅니다.<br>
-    <img src="../../_assets/f_btn_file.png" width ="350" ><br>
-    <img src="../../_assets/f_btn_save.png" width ="350" ><br>
+    <img src="../../_assets/f_btn_file.png" width ="430" ><br>
+    <img src="../../_assets/f_btn_save.png" width ="430" ><br>
     
 2. 만약 문법 오류가 없다면 하단의 파일이름을 입력할 수 있는 입력창이 있는 파일 관리자 화면이 나타납니다.<br>
     <img src="../../_assets/file_save_intro.png" width ="500" ><br>
@@ -112,28 +159,28 @@ Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 
     <img src="../../_assets/file_save_name_edit.png" width ="500" ><br>
     
     (현재 저장하고자 하는 래더파일이 래더 파일 이름 형식에 맞지 않다면 S00으로 파일이름이 지정됩니다.)
-# 3.8.2 파일 불러오기
+# 3.6.2 파일 불러오기
 파일 불러오기 기능을 통해 저장한 파일이 잘 저장되었는지 확인해보겠습니다.
 
 1. 먼저 하단 버튼 바 파일 > 새 파일 버튼을 통해 초기 상태로 돌아가겠습니다.<br>
-    <img src="../../_assets/f_btn_file.png" width ="300" ><br>
-    <img src="../../_assets/f_btn_new_file.png" width ="300" ><br><br>
+    <img src="../../_assets/f_btn_file.png" width ="430" ><br>
+    <img src="../../_assets/f_btn_new_file.png" width ="430" ><br><br>
     <img src="../../_assets/new_file_result.png" width ="500" ><br>
     
 2. 불러오기 버튼을 클릭하면 파일 관리자 화면이 나타납니다.<br>
-    <img src="../../_assets/f_btn_load_file.png" width ="300" ><br><br>
-    <img src="../../_assets/file_load_screen.png" width ="400" ><br>
+    <img src="../../_assets/f_btn_load_file.png" width ="430" ><br><br>
+    <img src="../../_assets/file_load_screen.png" width ="500" ><br>
 
 3. 저장한 S00.lad 파일에 커서를 두고 Enter 버튼을 누르면 현재 화면에 저장한 파일이 출력되는 것을 확인할 수 있습니다.<br>
 
     {% hint style="info" %}
     파일 불러오기 기능을 통해서 확장자가 lad 혹은 LAD 인 파일만 불러올 수 있습니다.
-    {% endhint %}# 3.8.3 새 파일
+    {% endhint %}# 3.6.3 새 파일
 새로운 래더 파일을 만들고 싶거나 초기 상태의 래더 편집 기능으로 돌아가고 싶은 경우 새 파일 기능을 사용할 수 있습니다. 
 
 1. 하단 버튼 바의 파일 > 새 파일 버튼을 눌러보겠습니다.<br>
-    <img src="../../_assets/f_btn_file.png" width ="300" ><br>
-    <img src="../../_assets/f_btn_new_file.png" width ="300" ><br><br>
+    <img src="../../_assets/f_btn_file.png" width ="430" ><br>
+    <img src="../../_assets/f_btn_new_file.png" width ="430" ><br><br>
 2. 새 파일 버튼을 실행한 결과 입니다.<br>
     <img src="../../_assets/new_file_result.png" width ="600" ><br>
     

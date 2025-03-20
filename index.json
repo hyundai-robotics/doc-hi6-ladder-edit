@@ -30,43 +30,63 @@
 		"byte_ofs": 3632
 	},
 	{
-		"link": "3-ladder-diagram-edit/1-basic-edit.md",
+		"link": "3-ladder-diagram-edit/1-insert-element.md",
 		"char_ofs": 2244,
 		"byte_ofs": 3697
 	},
 	{
-		"link": "3-ladder-diagram-edit/8-file/README.md",
-		"char_ofs": 2866,
-		"byte_ofs": 4660
+		"link": "3-ladder-diagram-edit/2-editing-features.md",
+		"char_ofs": 2639,
+		"byte_ofs": 4328
 	},
 	{
-		"link": "3-ladder-diagram-edit/8-file/1-file-save.md",
-		"char_ofs": 2905,
-		"byte_ofs": 4747
+		"link": "3-ladder-diagram-edit/3-tag-format.md",
+		"char_ofs": 3204,
+		"byte_ofs": 5249
 	},
 	{
-		"link": "3-ladder-diagram-edit/8-file/2-file-load.md",
-		"char_ofs": 3996,
-		"byte_ofs": 6697
+		"link": "3-ladder-diagram-edit/4-find-and-replace.md",
+		"char_ofs": 3777,
+		"byte_ofs": 6194
 	},
 	{
-		"link": "3-ladder-diagram-edit/8-file/3-new-file.md",
-		"char_ofs": 4673,
-		"byte_ofs": 7716
+		"link": "3-ladder-diagram-edit/5-syntax-check.md",
+		"char_ofs": 4291,
+		"byte_ofs": 7057
+	},
+	{
+		"link": "3-ladder-diagram-edit/6-file/README.md",
+		"char_ofs": 4757,
+		"byte_ofs": 7764
+	},
+	{
+		"link": "3-ladder-diagram-edit/6-file/1-file-save.md",
+		"char_ofs": 4796,
+		"byte_ofs": 7851
+	},
+	{
+		"link": "3-ladder-diagram-edit/6-file/2-file-load.md",
+		"char_ofs": 5887,
+		"byte_ofs": 9801
+	},
+	{
+		"link": "3-ladder-diagram-edit/6-file/3-new-file.md",
+		"char_ofs": 6564,
+		"byte_ofs": 10820
 	},
 	{
 		"link": "4-monitoring/README.md",
-		"char_ofs": 5275,
-		"byte_ofs": 8719
+		"char_ofs": 7166,
+		"byte_ofs": 11823
 	},
 	{
 		"link": "4-monitoring/1-plc-monitoring.md",
-		"char_ofs": 5305,
-		"byte_ofs": 8797
+		"char_ofs": 7196,
+		"byte_ofs": 11901
 	},
 	{
 		"link": "4-monitoring/2-checksum-compare.md",
-		"char_ofs": 6357,
-		"byte_ofs": 10429
+		"char_ofs": 8248,
+		"byte_ofs": 13533
 	}
 ]
