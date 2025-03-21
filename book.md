@@ -207,7 +207,7 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
 <img src="../_assets/f_btn_remote.png" width ="340"><br>
 
 Remote Run 상태로 PLC 모드를 변경하는 할 때. S00.lad 파일이 main의 project/lads 디렉토리 내에 없거나 S00.lad 파일에 문법적 오류가 있는 경우 래더 파일이 로드 되지 않아 "PLC 프로그램 없음" 이라는 메시지를 출력합니다. <br>
-<img src="../_assets/remote_run_error.png" width ="430"><br>
+<img src="../_assets/no_plc_message.png" width ="430"><br>
 
 만약 문법적 오류가 없는 S00.lad 파일이 main의 project/lads 경로에 존재한다면 내장 PLC 모드는 Remote Run으로 변경되며 TP화면 우측 상단에 아이콘이 생기는 것을 볼 수 있습니다.<br>
 <img src="../_assets/remote_run_header.png" width ="500"><br>
