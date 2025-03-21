@@ -13,8 +13,7 @@
 하단의 버튼을 통해 다양한 기능을 사용할 수 있습니다. 
 <br><br><br>
 
-버튼별 기능 분류입니다.<br>
-<img src="../_assets/f_btn_bar.png" width ="400" ><br>
+버튼별 기능들에 대한 설명표입니다.<br>
 <table text-align: center; style="tg">
     <tr>
         <th colspan = 3 style="text-align: center;"> 버튼</th>

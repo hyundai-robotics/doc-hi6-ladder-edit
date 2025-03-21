@@ -21,10 +21,11 @@
 
 Hi6 제어기의 래더 편집(Ladder Edit) 기능은 Hi6 내장 PLC를 통해 구동할 래더 프로그램을 사용자가 직접 작성 및 편집할 수 있는 Hi6 제어기 내장 기능입니다.
 
-편집 방식은 현대로봇 전용의 래더 편집 PC 소프트웨어인 HRLadder 및 Hi5a의 래더 편집 기능과 유사하므로 이미 HRLadder 혹은 Hi5a를 사용하여 래더 프로그램을 편집해 본 경험이 있는 사용자들은 본 설명서를 통해 빠르게 기능을 익힐 수 있을 것 입니다.
+편집 방식은 현대로봇 전용의 래더 편집 PC 소프트웨어인 HRLadder와 유사하므로 이미 HRLadder를 사용하여 래더 프로그램을 편집해 본 경험이 있는 사용자들은 본 설명서를 통해 빠르게 기능을 익힐 수 있을 것 입니다. 
 
 * HRLadder는 현대로보틱스 웹사이트(https://www.hd-hyundairobotics.com/main) - 고객지원 - 다운로드 센터에서 HRLadder를 검색하여 다운로드 하실 수 있습니다.
 * HRLadder의 사용법은 HRLadder의 도움말 메뉴에 연결된 기능설명서를 참조하십시오.
+
 
 {% hint style="info" %}  
 Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 를 참조하시기 바랍니다.
@@ -45,8 +46,7 @@ Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 
 하단의 버튼을 통해 다양한 기능을 사용할 수 있습니다. 
 <br><br><br>
 
-버튼별 기능 분류입니다.<br>
-<img src="../_assets/f_btn_bar.png" width ="400" ><br>
+버튼별 기능들에 대한 설명표입니다.<br>
 <table text-align: center; style="tg">
     <tr>
         <th colspan = 3 style="text-align: center;"> 버튼</th>
@@ -74,6 +74,7 @@ Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 
     </tr>
 </table>
 
+# 3. 래더 다이어그램 편집
 래더 다이어그램의 편집에 대해서 설명드립니다.# 3.1 요소 삽입
 래더 다이어그램을 편집하는 방식은 HRLadder의 편집 방식과 유사하므로 더 자세한 설명은 HRLadder 설명서의 기본 편집 항목을 확인하여 주십시오. 
 
@@ -101,7 +102,6 @@ Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 
 [Hi6 내장 PLC 릴레이의 표기 설명서 ](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)를 참고해 주십시오  
 {% endhint %}
 <br>
-
 래더 편집 기능에서는 HRLadder와 동일한 방식으로 4가지 형식 중 1가지를 선택하여 래더 다이어그램에 보여주는 기능을 가지고 있습니다.<br>
 
 보기 버튼을 누른후 태그형식 버튼을 누릅니다. <br>
@@ -186,20 +186,21 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
     
 3. 만약 래더 파일을 수정하던 중 새파일 기능을 사용하는 경우 변경 사항 저장 여부를 확인하는 팝업이 생성됩니다.<br>
     <img src="../../_assets/new_file_pop_up.png" width ="300" ><br>
-    - 예를 누르게 되면 파일 저장 화면으로 이동됩니다.
-    - 아니요를 누르게 되면 바로 2번 상태가 됩니다.
+    - 예를 누르게 되면 파일 저장 화면으로 이동됩니다. 이미 저장된 파일인 경우 변경 사항이 파일에 적용됩니다.
+    - 아니요를 누르게 되면 새 파일 상태가 됩니다.
     - 취소를 누르게 되면 새파일 기능 호출이 취소됩니다.
 
 
 
 
 
+# 4. 모니터링
 래더 다이어그램의 모니터링 기능에 대해서 설명드립니다.# 4.1. PLC 모니터링
 로봇제어기의 내장 PLC의 현재 릴레이값 상태를 모니터링 하는 기능입니다.<br>
 
-{% hint style="info" %}
-- 모니터링 결과는 HRLadder와 동일하므로 자세한 설명은 HRLadder 설명서를 참고해 주십시오.
-- 내장 PLC 동작 모드에 대한 자세한 설명은 [Hi6 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)를  참고해 주십시오.
+{% hint style="info" %}  
+- 모니터링 결과는 HRLadder와 동일하므로 자세한 설명은 HRLadder 설명서를 참고해 주십시오.<br>
+- 내장 PLC 동작 모드에 대한 자세한 설명은 [Hi6 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)를  참고해 주십시오.  
 {% endhint %}
 
 하단 버튼 바 도구 > R.RUN 혹은 R.STOP 버튼을 통해 내장 PLC의 동작모드를 Remote Run 혹은 Remote Stop 상태로 변경할 수 있습니다.<br>
