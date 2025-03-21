@@ -9,8 +9,8 @@
 <img src="../_assets/select_panel.png" width="600"><br><br>
 3. 래더 편집 기능이 시작됩니다.<br><br>
 하단 버튼바가 아래와 같은 형태가 아닌 경우 ESC 버튼을 누르십시오.
-<br>
-<img src="../_assets/f_btn_screen.png" width="600"><br>
+<br><br>
+<img src="../_assets/f_btn_screen.png" width="600"><br><br>
 하단의 버튼을 통해 다양한 기능을 사용할 수 있습니다. 
 <br><br><br>
 

@@ -3,11 +3,11 @@
 
 HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder 설명서의 찾기와 바꾸기 항목을 참고해 주십시오.<br>
 
-하단 버튼바 편집 > 찾기 및 바꾸기 버튼을 클릭하면<br>
+1. 하단 버튼바 편집 > 찾기 및 바꾸기 버튼을 클릭하면<br><Br>
     <img src="../_assets/f_btn_edit.png" width ="415" ><br>
     <img src="../_assets/f_btn_find_and_change.png" width ="500" ><br>
 <br>
-찾기 및 바꾸기 대화상자가 나타납니다.<br>
+2. 찾기 및 바꾸기 대화상자가 나타납니다.<br><br>
 <img src="../_assets/find_and_change_dlg.png" width = "" ><br>
 
 {% hint style="info" %}문자 입력은 전부 바꾸기 버튼 아래의 키보드 버튼을 누른 후 소프트 키보드를 사용하시면 됩니다.
