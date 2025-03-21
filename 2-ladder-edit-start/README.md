@@ -1,2 +1,2 @@
-# 2. 래더 편집 시작
-래더 편집 기능의 위치 및 실행하기 위한 과정을 설명드립니다.
+# 2. Starting Ladder Edit
+This section explains the location and process to execute the Ladder Edit function.

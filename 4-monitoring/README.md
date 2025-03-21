@@ -1,2 +1,2 @@
-# 4. 모니터링
-래더 다이어그램의 모니터링 기능에 대해서 설명드립니다.
+# 4. Monitoring
+This section explains the monitoring functions of the ladder diagram.

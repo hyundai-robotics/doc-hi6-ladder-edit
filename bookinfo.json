@@ -1,8 +1,8 @@
 {
-    "langCode": "ko",
-    "series": "현대로봇 Hi6 제어기",
-    "title": "Hi6 로봇제어기 기능설명서 - 래더 편집 (Ladder Edit)",
-    "publisher": "현대로보틱스",
-    "tocTitle": "목차",
+    "langCode": "en",
+    "series": "Hyundai Robot Hi6 Controller",
+    "title": "Function Manual - Ladder Edit",
+    "publisher": "Hyundai Robotics",
+    "tocTitle": "Table of Contents",
     "tocTitleElements": "[ \"h1\", \"h2\" ]"
 }

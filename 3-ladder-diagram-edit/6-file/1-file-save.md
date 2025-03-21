@@ -1,23 +1,25 @@
-# 3.6.1 파일 저장하기
-래더 파일을 저장하는 방법입니다.
+# 3.6.1 File Save
+This section explains how to save a ladder file.
 
-1.  하단 버튼 바 파일 > 저장하기 버튼을 누릅니다.<br><br>
-    <img src="../../_assets/f_btn_file.png" width ="430" ><br>
-    <img src="../../_assets/f_btn_save.png" width ="430" ><br>
+1.  Press the File > Save button on the bottom button bar.<br><br>
+    <img src="../../_assets/f_btn_file_en.png" width ="430" ><br>
+    <img src="../../_assets/f_btn_save_en.png" width ="430" ><br>
     
-2. 만약 문법 오류가 없다면 하단의 파일이름을 입력할 수 있는 입력창이 있는 파일 관리자 화면이 나타납니다.<br><br>
-    <img src="../../_assets/file_save_intro.png" width ="500" ><br>
-    - 1번 항목은 파일 디렉토리 항목이며 저장 될 디렉토리를 설정할 수 있습니다.
-    - 2번 항목은 파일 디렉토리 내부의 파일 리스트 입니다. 
-    - 3번 항목은 파일 이름 입력창으로 저장될 파일의 이름을 입력할 수 있습니다.
-3. 파일 이름 입력창에 래더 파일 이름 형식에 맞추어 S00 으로 이름을 입력한 후 Enter 버튼을 눌러 저장을 완료하겠습니다.<br><br> 
-    <img src="../../_assets/file_save_name_edit.png" width ="500" ><br><br>
+2. If there are no syntax errors, a file manager screen with a text field for entering the file name will appear.<br><br>
+    <img src="../../_assets/file_save_intro_en.png" width ="500" ><br>
+    - Item 1 is the file directory section, where you can set the directory where the file will be saved
+    - Item 2 is the list of files in the directory.
+    - Item 3 is the file name input field, where you can enter the name of the file to be saved.
+3. In the file name input field, enter the ladder file name in the format S00 and press the Enter button to complete the save.<br><br> 
+    <img src="../../_assets/file_save_name_edit_en.png" width ="500" ><br><br>
     {% hint style="info" %}
-    현재 포커스된 커서가 디렉토리 인 경우 Enter 버튼을 눌러도 저장되지 않습니다. 2번, 3번 항목에 커서를 둔 채로 Enter 버튼을 눌러야 저장이 됩니다.
+    If the cursor is focused on the directory field, pressing the Enter button will not save the file. The Enter button must be pressed while the cursor is focused on either Item 2 or Item 3 to
     {% endhint %}
-4. 만약 현재 파일을 다른 이름으로 저장하고 싶다면 하단 버튼 바 파일 > 다른 이름 저장 버튼을 통해 현재 래더 파일의 내용을 다른 이름으로 저장할 수 있습니다.<br><br>
+4. If you want to save the current file with a different name, you can use the File > Save As Other button on the bottom button bar to save the current ladder file with a different name.<br><br>
 
-5. 래더 번호 저장 버튼을 누르면 S{래더번호}{부가 설명} 형태의 파일이름이 파일 이름 입력창에 기록된 파일 관리자 화면이 나타납니다. <br><br>
-    <img src="../../_assets/file_save_name_edit.png" width ="500" ><br>
+5. Pressing the Ladder Number Save button will display a file manager screen with the file name in the format S{Ladder Number}{Additional Description} in the file name input field. <br><br>
+    <img src="../../_assets/file_save_name_edit_en.png" width ="500" ><br>
     
-    (현재 저장하고자 하는 래더파일이 래더 파일 이름 형식에 맞지 않다면 S00으로 파일이름이 지정됩니다.)
+    (If the ladder file name does not match the required format, the file name will be set to S00.)
+
+

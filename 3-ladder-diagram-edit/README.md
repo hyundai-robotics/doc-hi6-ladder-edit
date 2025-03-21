@@ -1,2 +1,2 @@
-# 3. 래더 다이어그램 편집
-래더 다이어그램의 편집에 대해서 설명드립니다.
+# 3. Ladder Diagram Editing
+This section explains the editing of the ladder diagram.

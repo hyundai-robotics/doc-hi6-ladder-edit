@@ -1,15 +1,15 @@
-# 3.6.3 새 파일
-새로운 래더 파일을 만들고 싶거나 초기 상태의 래더 편집 기능으로 돌아가고 싶은 경우 새 파일 기능을 사용할 수 있습니다. 
+# 3.6.3 New File
+If you want to create a new ladder file or return to the initial state of the ladder editing function, you can use the New File function.
 
-1. 하단 버튼 바의 파일 > 새 파일 버튼을 눌러보겠습니다.<br><br>
-    <img src="../../_assets/f_btn_file.png" width ="430" ><br>
-    <img src="../../_assets/f_btn_new_file.png" width ="430" ><br><br>
-2. 새 파일 버튼을 실행한 결과 입니다.<br><br>
-    <img src="../../_assets/new_file_result.png" width ="600" ><br>
+1. Press the File > New File button on the bottom button bar.<br><br>
+    <img src="../../_assets/f_btn_file_en.png" width ="430" ><br>
+    <img src="../../_assets/f_btn_new_file_en.png" width ="430" ><br><br>
+2. This is the result after executing the New File button.<br><br>
+    <img src="../../_assets/new_file_result_en.png" width ="600" ><br>
     
-3. 만약 래더 파일을 수정하던 중 새파일 기능을 사용하는 경우 변경 사항 저장 여부를 확인하는 팝업이 생성됩니다.<br><br>
-    <img src="../../_assets/new_file_pop_up.png" width ="300" ><br>
-    - 예를 누르게 되면 파일 저장 화면으로 이동됩니다. 이미 저장된 파일인 경우 변경 사항이 파일에 적용됩니다.
-    - 아니요를 누르게 되면 새 파일 상태가 됩니다.
-    - 취소를 누르게 되면 새파일 기능 호출이 취소됩니다.
+3. If you are editing a ladder file and use the New File function, a pop-up will appear asking if you want to save the changes.<br><br>
+    <img src="../../_assets/new_file_pop_up_en.png" width ="300" ><br>
+    - If you click Yes, you will be taken to the file save screen. If the file is already saved, the changes will be applied to the file.
+    - If you click No, the state will change to a new file.
+    - If you click Cancel, the new file function will be canceled.
 
