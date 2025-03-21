@@ -34,10 +34,11 @@ Hi6 제어기의 래더 편집(Ladder Edit) 기능은 Hi6 내장 PLC를 통해 �
 래더 편집 기능의 위치 및 실행하기 위한 과정을 설명드립니다.# 2.1. 초기 화면
 래더 편집 기능을 실행해보겠습니다.
 
-1. 화면 우측의 [창조정] 버튼과 하단의 [분할] 버튼을 터치한 후 왼쪽 하단의 [선택] 버튼까지 순서대로 터치 하십시오. 패널 선택창이 나타납니다.<br>
-<img src="../_assets/split_window.png" width="600">
-<br><br>
-2. 패널 선택창에서 래더 편집을 선택합니다.<br>
+1. 화면 우측의 [창조정] 버튼과 하단의 [분할] 버튼을 터치한 후 왼쪽 하단의 [선택] 버튼까지 순서대로 터치 하십시오. 패널 선택창이 나타납니다.<br><br>
+    <img src="../_assets/split_window.png" width="600">
+    <br><br>
+
+2. 패널 선택창에서 래더 편집을 선택합니다.<br><br>
 <img src="../_assets/select_panel.png" width="600"><br><br>
 3. 래더 편집 기능이 시작됩니다.<br><br>
 하단 버튼바가 아래와 같은 형태가 아닌 경우 ESC 버튼을 누르십시오.
@@ -83,7 +84,8 @@ Hi6 제어기의 래더 편집(Ladder Edit) 기능은 Hi6 내장 PLC를 통해 �
     <img src="../_assets/f_btn_elements.png" width ="500" ><br><br>
 
 - 다른 요소들을 확인하고 싶다면 이전/다음 버튼을 터치하시면 됩니다.<br>
-<img src="../_assets/insert_move_next_prev.png" width ="500" ><br><br># 3.2 편집 기능
+<img src="../_assets/insert_move_next_prev.png" width ="500" ><br><br>
+# 3.2 편집 기능
 다른 편집 기능들도 HRLadder의 기능과 동일합니다.<br>
 더 자세한 편집 방법은 HRLadder 설명서의 래더 다이어그램 편집 항목을 확인해 주십시오.
 1. 브랜치 편집을 쉽게 하기 위한 브랜치 간격 옵션입니다.<br>
