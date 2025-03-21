@@ -6,7 +6,7 @@ It cannot be reproduced or redistributed in part or whole without written consen
 
 The manual is subject to change without prior notification.
 
-Copyright ⓒ 2025 by Hyundai Robotics {% endhint %}# 1. OverView
+Copyright ⓒ 2025 by Hyundai Robotics {% endhint %}# 1. Intro
 
 {% hint style="info" %}This feature is supported from version V60.32-00 and later.
 
@@ -146,7 +146,8 @@ This section explains how to save a ladder file.
 3. In the file name input field, enter the ladder file name in the format S00 and press the Enter button to complete the save.<br><br> 
     <img src="../../_assets/file_save_name_edit_en.png" width ="500" ><br><br>
     {% hint style="info" %}
-    If the cursor is focused on the directory field, pressing the Enter button will not save the file. The Enter button must be pressed while the cursor is focused on either Item 2 or Item 3 to
+    If the cursor is focused on the directory field, pressing the Enter button will not save the file. The Enter button must be pressed while the cursor is focused on either Item 2 or Item 3 to save the file
+    
     {% endhint %}
 4. If you want to save the current file with a different name, you can use the File > Save As Other button on the bottom button bar to save the current ladder file with a different name.<br><br>
 
