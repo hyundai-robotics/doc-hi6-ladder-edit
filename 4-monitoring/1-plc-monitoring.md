@@ -3,7 +3,7 @@ This function monitors the current relay value status of the robot controller's 
 
 {% hint style="info" %}  
 - The monitoring results are the same as in HRLadder, so please refer to the HRLadder manual for more detailed explanations.<br>
-- For more information on the built-in PLC operation mode, please refer to the [Hi6 Embedded PLC ManualHi6](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)
+- For more information on the built-in PLC operation mode, please refer to the [Hi6 Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)
 
 {% endhint %}
 

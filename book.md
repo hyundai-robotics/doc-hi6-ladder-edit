@@ -16,10 +16,10 @@ The Ladder Edit function of the Hi6 controller is an embedded feature that allow
 
 The editing method is similar to HRLadder, a dedicated ladder editing PC software for Hyundai Robotics. Therefore, users who have experience editing ladder programs using HRLadder will be able to quickly familiarize themselves with the function through this manual.
 
-HRLadder can be downloaded by searching for it on the Hyundai Robotics website (https://www.hd-hyundairobotics.com/main) - Customer Support - Download Center.
-For instructions on how to use HRLadder, please refer to the user manual linked in the help menu of HRLadder.
+- HRLadder can be downloaded by searching for it on the Hyundai Robotics website (https://www.hd-hyundairobotics.com/main) - Customer Support - Download Center.
+- For instructions on how to use HRLadder, please refer to the user manual linked in the help menu of HRLadder.
 
-{% hint style="info" %} For information on the Hi6 controller settings, relays, and the built-in PLC, please refer to the [ Hi6 Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 를 참조하시기 바랍니다.
+{% hint style="info" %} For information on the Hi6 controller settings, relays, and the built-in PLC, please refer to the [ Hi6 Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 
 
 {% endhint %}  
 # 2. Starting Ladder Edit
@@ -145,7 +145,7 @@ Let's verify if the file has been saved correctly using the File Load function.
 
 3. Hover over the saved S00.lad file and press the Enter button. You will see the saved file displayed on the current screen.<br>
 
-    {% hint style="info" %}The file load function only supports loading files with the extension .lad or .LAD.
+    {% hint style="info" %}The file load function only supports loading files with the extension .lad or .LAD
     
     {% endhint %}# 3.6.3 New File
 If you want to create a new ladder file or return to the initial state of the ladder editing function, you can use the New File function.
@@ -169,7 +169,7 @@ This function monitors the current relay value status of the robot controller's 
 
 {% hint style="info" %}  
 - The monitoring results are the same as in HRLadder, so please refer to the HRLadder manual for more detailed explanations.<br>
-- For more information on the built-in PLC operation mode, please refer to the [Hi6 Embedded PLC ManualHi6](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)
+- For more information on the built-in PLC operation mode, please refer to the [Hi6 Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)
 
 {% endhint %}
 

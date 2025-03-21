@@ -12,6 +12,6 @@ Let's verify if the file has been saved correctly using the File Load function.
 
 3. Hover over the saved S00.lad file and press the Enter button. You will see the saved file displayed on the current screen.<br>
 
-    {% hint style="info" %}The file load function only supports loading files with the extension .lad or .LAD.
+    {% hint style="info" %}The file load function only supports loading files with the extension .lad or .LAD
     
     {% endhint %}

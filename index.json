@@ -16,72 +16,72 @@
 	},
 	{
 		"link": "2-ladder-edit-start/README.md",
-		"char_ofs": 1534,
-		"byte_ofs": 1583
+		"char_ofs": 1525,
+		"byte_ofs": 1554
 	},
 	{
 		"link": "2-ladder-edit-start/1-initial_screen.md",
-		"char_ofs": 1643,
-		"byte_ofs": 1693
+		"char_ofs": 1634,
+		"byte_ofs": 1664
 	},
 	{
 		"link": "3-ladder-diagram-edit/README.md",
-		"char_ofs": 3330,
-		"byte_ofs": 3427
+		"char_ofs": 3321,
+		"byte_ofs": 3398
 	},
 	{
 		"link": "3-ladder-diagram-edit/1-insert-element.md",
-		"char_ofs": 3414,
-		"byte_ofs": 3512
+		"char_ofs": 3405,
+		"byte_ofs": 3483
 	},
 	{
 		"link": "3-ladder-diagram-edit/2-editing-features.md",
-		"char_ofs": 4018,
-		"byte_ofs": 4125
+		"char_ofs": 4009,
+		"byte_ofs": 4096
 	},
 	{
 		"link": "3-ladder-diagram-edit/3-tag-format.md",
-		"char_ofs": 4880,
-		"byte_ofs": 5000
+		"char_ofs": 4871,
+		"byte_ofs": 4971
 	},
 	{
 		"link": "3-ladder-diagram-edit/4-find-and-replace.md",
-		"char_ofs": 5703,
-		"byte_ofs": 5836
+		"char_ofs": 5694,
+		"byte_ofs": 5807
 	},
 	{
 		"link": "3-ladder-diagram-edit/5-syntax-check.md",
-		"char_ofs": 6523,
-		"byte_ofs": 6671
+		"char_ofs": 6514,
+		"byte_ofs": 6642
 	},
 	{
 		"link": "3-ladder-diagram-edit/6-file/README.md",
-		"char_ofs": 7215,
-		"byte_ofs": 7374
+		"char_ofs": 7206,
+		"byte_ofs": 7345
 	},
 	{
 		"link": "3-ladder-diagram-edit/6-file/2-file-load.md",
-		"char_ofs": 7289,
-		"byte_ofs": 7449
+		"char_ofs": 7280,
+		"byte_ofs": 7420
 	},
 	{
 		"link": "3-ladder-diagram-edit/6-file/3-new-file.md",
-		"char_ofs": 8199,
-		"byte_ofs": 8375
+		"char_ofs": 8189,
+		"byte_ofs": 8345
 	},
 	{
 		"link": "4-monitoring/README.md",
-		"char_ofs": 9181,
-		"byte_ofs": 9372
+		"char_ofs": 9171,
+		"byte_ofs": 9342
 	},
 	{
 		"link": "4-monitoring/1-plc-monitoring.md",
-		"char_ofs": 9267,
-		"byte_ofs": 9460
+		"char_ofs": 9257,
+		"byte_ofs": 9430
 	},
 	{
 		"link": "4-monitoring/2-checksum-compare.md",
-		"char_ofs": 10853,
-		"byte_ofs": 11070
+		"char_ofs": 10840,
+		"byte_ofs": 11037
 	}
 ]
