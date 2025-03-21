@@ -10,6 +10,6 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
 찾기 및 바꾸기 대화상자가 나타납니다.<br>
 <img src="../_assets/find_and_change_dlg.png" width = "" ><br>
 
-{% hint style="info" %}  
-문자 입력은 전부 바꾸기 버튼 아래의 키보드 버튼을 누른 후 소프트 키보드를 사용하시면 됩니다.
+{% hint style="info" %}문자 입력은 전부 바꾸기 버튼 아래의 키보드 버튼을 누른 후 소프트 키보드를 사용하시면 됩니다.
+
 {% endhint %}  

@@ -16,77 +16,77 @@
 	},
 	{
 		"link": "2-ladder-edit-start/README.md",
-		"char_ofs": 956,
-		"byte_ofs": 1725
+		"char_ofs": 955,
+		"byte_ofs": 1724
 	},
 	{
 		"link": "2-ladder-edit-start/1-initial_screen.md",
-		"char_ofs": 1004,
-		"byte_ofs": 1836
+		"char_ofs": 1003,
+		"byte_ofs": 1835
 	},
 	{
 		"link": "3-ladder-diagram-edit/README.md",
-		"char_ofs": 2146,
-		"byte_ofs": 3547
+		"char_ofs": 2145,
+		"byte_ofs": 3546
 	},
 	{
 		"link": "3-ladder-diagram-edit/1-insert-element.md",
-		"char_ofs": 2188,
-		"byte_ofs": 3648
+		"char_ofs": 2187,
+		"byte_ofs": 3647
 	},
 	{
 		"link": "3-ladder-diagram-edit/2-editing-features.md",
-		"char_ofs": 2583,
-		"byte_ofs": 4279
+		"char_ofs": 2582,
+		"byte_ofs": 4278
 	},
 	{
 		"link": "3-ladder-diagram-edit/3-tag-format.md",
-		"char_ofs": 3148,
-		"byte_ofs": 5200
+		"char_ofs": 3151,
+		"byte_ofs": 5203
 	},
 	{
 		"link": "3-ladder-diagram-edit/4-find-and-replace.md",
-		"char_ofs": 3720,
-		"byte_ofs": 6143
+		"char_ofs": 3719,
+		"byte_ofs": 6141
 	},
 	{
 		"link": "3-ladder-diagram-edit/5-syntax-check.md",
-		"char_ofs": 4234,
-		"byte_ofs": 7006
+		"char_ofs": 4231,
+		"byte_ofs": 7002
 	},
 	{
 		"link": "3-ladder-diagram-edit/6-file/README.md",
-		"char_ofs": 4700,
-		"byte_ofs": 7713
+		"char_ofs": 4697,
+		"byte_ofs": 7709
 	},
 	{
 		"link": "3-ladder-diagram-edit/6-file/1-file-save.md",
-		"char_ofs": 4739,
-		"byte_ofs": 7800
+		"char_ofs": 4736,
+		"byte_ofs": 7796
 	},
 	{
 		"link": "3-ladder-diagram-edit/6-file/2-file-load.md",
-		"char_ofs": 5830,
-		"byte_ofs": 9750
+		"char_ofs": 5827,
+		"byte_ofs": 9746
 	},
 	{
 		"link": "3-ladder-diagram-edit/6-file/3-new-file.md",
-		"char_ofs": 6507,
-		"byte_ofs": 10769
+		"char_ofs": 6504,
+		"byte_ofs": 10765
 	},
 	{
 		"link": "4-monitoring/README.md",
-		"char_ofs": 7140,
-		"byte_ofs": 11849
+		"char_ofs": 7137,
+		"byte_ofs": 11845
 	},
 	{
 		"link": "4-monitoring/1-plc-monitoring.md",
-		"char_ofs": 7180,
-		"byte_ofs": 11946
+		"char_ofs": 7177,
+		"byte_ofs": 11942
 	},
 	{
 		"link": "4-monitoring/2-checksum-compare.md",
-		"char_ofs": 8240,
-		"byte_ofs": 13586
+		"char_ofs": 8237,
+		"byte_ofs": 13582
 	}
 ]

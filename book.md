@@ -27,8 +27,8 @@ Hi6 제어기의 래더 편집(Ladder Edit) 기능은 Hi6 내장 PLC를 통해 �
 * HRLadder의 사용법은 HRLadder의 도움말 메뉴에 연결된 기능설명서를 참조하십시오.
 
 
-{% hint style="info" %}  
-Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 를 참조하시기 바랍니다.
+{% hint style="info" %} Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 를 참조하시기 바랍니다.
+
 {% endhint %}  
 # 2. 래더 편집 시작
 래더 편집 기능의 위치 및 실행하기 위한 과정을 설명드립니다.# 2.1. 초기 화면
@@ -88,25 +88,24 @@ Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 
 더 자세한 편집 방법은 HRLadder 설명서의 래더 다이어그램 편집 항목을 확인해 주십시오.
 1. 브랜치 편집을 쉽게 하기 위한 브랜치 간격 옵션입니다.<br>
     하단 버튼 바 보기 버튼을 누른 후 브랜치 간격 버튼을 누르시면 됩니다.<br>
-    <img src="../_assets/f_btn_layout.png" width ="355" ><br>
-    <img src="../_assets/f_btn_branch_gap.png" width ="210" ><br>
+    <img src="../_assets/f_btn_layout.png" width ="415" ><br>
+    <img src="../_assets/f_btn_branch_gap.png" width ="250" ><br>
 2. 잘라내기, 복사, 붙여넣기, 실행 취소, 다시 실행 기능은 하단 버튼 바 편집을 누르면 확인하실 수 있습니다.<br>
-    <img src="../_assets/f_btn_edit.png" width ="355"><br>
-    <img src="../_assets/f_btn_edit_menu.png" width ="430">
+    <img src="../_assets/f_btn_edit.png" width ="415"><br><br>
+    <img src="../_assets/f_btn_edit_menu.png" width ="500">
 
 3. [Del]키를 누르면 선택된 명령어들, 혹은 선택된 Rung 이나 브랜치가 삭제됩니다.<br><br>
 # 3.3 태그형식
 릴레이 인덱스 중 1비트 데이터는 1 비트, 8비트, 16비트, 32비트 4가지 형식 중 하나로 입력하고 표시될 수 있습니다.<br>
-{% hint style="info" %}  
-릴레이 표기에 대한 자세한 설명은 
-[Hi6 내장 PLC 릴레이의 표기 설명서 ](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)를 참고해 주십시오  
+{% hint style="info" %}릴레이 표기에 대한 자세한 설명은 
+[Hi6 내장 PLC 릴레이의 표기 설명서 ](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)를 참고해 주십시오 
 {% endhint %}
 <br>
 래더 편집 기능에서는 HRLadder와 동일한 방식으로 4가지 형식 중 1가지를 선택하여 래더 다이어그램에 보여주는 기능을 가지고 있습니다.<br>
 
 보기 버튼을 누른후 태그형식 버튼을 누릅니다. <br>
-<img src="../_assets/f_btn_layout.png" width ="400"><br>
-<img src="../_assets/f_btn_tag_format.png" width ="240"><br>
+<img src="../_assets/f_btn_layout.png" width ="415"><br>
+<img src="../_assets/f_btn_tag_format.png" width ="250"><br>
 
 태그형식 버튼을 누를 때 마다, 표시 형식은 1비트 -> 8비트 -> 16비트 -> 32비트로 순환합니다.# 3.4 찾기 및  바꾸기
 래더 파일의 전체를 검색하여 지정한 문자열을 찾아내거나 찾은 문자열을 지정한 다른 문자열로 바꾸는 기능입니다.<br>
@@ -120,8 +119,8 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
 찾기 및 바꾸기 대화상자가 나타납니다.<br>
 <img src="../_assets/find_and_change_dlg.png" width = "" ><br>
 
-{% hint style="info" %}  
-문자 입력은 전부 바꾸기 버튼 아래의 키보드 버튼을 누른 후 소프트 키보드를 사용하시면 됩니다.
+{% hint style="info" %}문자 입력은 전부 바꾸기 버튼 아래의 키보드 버튼을 누른 후 소프트 키보드를 사용하시면 됩니다.
+
 {% endhint %}  
 # 3.5 문법 검사
 작성된 래더 다이어그램이 문법적으로 틀린 곳이 없는 지 체크하는 기능입니다.
@@ -173,8 +172,8 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
 
 3. 저장한 S00.lad 파일에 커서를 두고 Enter 버튼을 누르면 현재 화면에 저장한 파일이 출력되는 것을 확인할 수 있습니다.<br>
 
-    {% hint style="info" %}
-    파일 불러오기 기능을 통해서 확장자가 lad 혹은 LAD 인 파일만 불러올 수 있습니다.
+    {% hint style="info" %}파일 불러오기 기능을 통해서 확장자가 lad 혹은 LAD 인 파일만 불러올 수 있습니다.
+    
     {% endhint %}# 3.6.3 새 파일
 새로운 래더 파일을 만들고 싶거나 초기 상태의 래더 편집 기능으로 돌아가고 싶은 경우 새 파일 기능을 사용할 수 있습니다. 
 
