@@ -66,27 +66,27 @@
 	},
 	{
 		"link": "3-ladder-diagram-edit/6-file/2-file-load.md",
-		"char_ofs": 5933,
-		"byte_ofs": 9844
+		"char_ofs": 5937,
+		"byte_ofs": 9848
 	},
 	{
 		"link": "3-ladder-diagram-edit/6-file/3-new-file.md",
-		"char_ofs": 6622,
-		"byte_ofs": 10875
+		"char_ofs": 6626,
+		"byte_ofs": 10879
 	},
 	{
 		"link": "4-monitoring/README.md",
-		"char_ofs": 7263,
-		"byte_ofs": 11959
+		"char_ofs": 7267,
+		"byte_ofs": 11963
 	},
 	{
 		"link": "4-monitoring/1-plc-monitoring.md",
-		"char_ofs": 7303,
-		"byte_ofs": 12056
+		"char_ofs": 7307,
+		"byte_ofs": 12060
 	},
 	{
 		"link": "4-monitoring/2-checksum-compare.md",
-		"char_ofs": 8414,
-		"byte_ofs": 13746
+		"char_ofs": 8418,
+		"byte_ofs": 13750
 	}
 ]

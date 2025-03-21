@@ -1,7 +1,7 @@
 # 3.6.1 파일 저장하기
 래더 파일을 저장하는 방법입니다.
 
-1.  하단 버튼 바 파일 > 저장하기 버튼을 누릅니다.<br>
+1.  하단 버튼 바 파일 > 저장하기 버튼을 누릅니다.<br><br>
     <img src="../../_assets/f_btn_file.png" width ="430" ><br>
     <img src="../../_assets/f_btn_save.png" width ="430" ><br>
     
