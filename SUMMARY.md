@@ -11,7 +11,7 @@
     * [3.4 Find and Replace](3-ladder-diagram-edit/4-find-and-replace.md)
     * [3.5 Syntax Check](3-ladder-diagram-edit/5-syntax-check.md)
     * [3.6 File](3-ladder-diagram-edit/6-file/README.md)
-        * [3.6.1 File Save](3-ladder-diagraccm-edit/6-file/1-file-save.md)
+        * [3.6.1 File Save](3-ladder-diagram-edit/6-file/1-file-save.md)
         * [3.6.2 File Load](3-ladder-diagram-edit/6-file/2-file-load.md)
         * [3.6.3 New File](3-ladder-diagram-edit/6-file/3-new-file.md)
 * [4. Monitoring](4-monitoring/README.md)
