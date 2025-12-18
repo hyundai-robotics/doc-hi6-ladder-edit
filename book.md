@@ -1,9 +1,9 @@
-﻿# Hi6 로봇제어기 기능설명서 - 래더 편집 (Ladder Edit)
+﻿# ${cont_model} 로봇제어기 기능설명서 - 래더 편집 (Ladder Edit)
 
 {% hint style="warning" %}
-본 제품 설명서에서 제공되는 정보는 현대로보틱스의 자산입니다.
+본 제품 설명서에서 제공되는 정보는 HD현대로보틱스의 자산입니다.
 
-현대로보틱스의 서면에 의한 동의 없이 전부 또는 일부를 무단 전재 및 재배포할 수 없으며, 제3자에게 제공되거나 다른 목적에 사용할 수 없습니다.
+HD현대로보틱스의 서면에 의한 동의 없이 전부 또는 일부를 무단 전재 및 재배포할 수 없으며, 제3자에게 제공되거나 다른 목적에 사용할 수 없습니다.
 
 
 
@@ -11,7 +11,7 @@
 
 
 
-**Copyright ⓒ 2025 by Hyundai Robotics**
+**Copyright ⓒ 2025 by HD Hyundai Robotics**
 {% endhint %}
 # 1. 개요
 
@@ -19,15 +19,15 @@
 본 기능은 V60.32-00 및 이후 버전부터 지원됩니다.
 {% endhint %}# 1.1 래더 편집(Ladder Edit)
 
-Hi6 제어기의 래더 편집(Ladder Edit) 기능은 Hi6 내장 PLC를 통해 구동할 래더 프로그램을 사용자가 직접 작성 및 편집할 수 있는 Hi6 제어기 내장 기능입니다.
+${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} 내장 PLC를 통해 구동할 래더 프로그램을 사용자가 직접 작성 및 편집할 수 있는 ${cont_model} 제어기 내장 기능입니다.
 
 편집 방식은 현대로봇 전용의 래더 편집 PC 소프트웨어인 HRLadder와 유사하므로 이미 HRLadder를 사용하여 래더 프로그램을 편집해 본 경험이 있는 사용자들은 본 설명서를 통해 빠르게 기능을 익힐 수 있을 것 입니다. 
 
-* HRLadder는 현대로보틱스 웹사이트(https://www.hd-hyundairobotics.com/main) - 고객지원 - 다운로드 센터에서 HRLadder를 검색하여 다운로드 하실 수 있습니다.
+* HRLadder는 HD현대로보틱스 웹사이트(https://www.hd-hyundairobotics.com/main) - 고객지원 - 다운로드 센터에서 HRLadder를 검색하여 다운로드 하실 수 있습니다.
 * HRLadder의 사용법은 HRLadder의 도움말 메뉴에 연결된 기능설명서를 참조하십시오.
 
 
-{% hint style="info" %} Hi6 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [Hi6 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 를 참조하시기 바랍니다.
+{% hint style="info" %} ${cont_model} 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [${cont_model} 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 를 참조하시기 바랍니다.
 
 {% endhint %}  
 # 2. 래더 편집 시작
@@ -100,7 +100,7 @@ Hi6 제어기의 래더 편집(Ladder Edit) 기능은 Hi6 내장 PLC를 통해 �
 # 3.3 태그형식
 릴레이 인덱스 중 1비트 데이터는 1 비트, 8비트, 16비트, 32비트 4가지 형식 중 하나로 입력하고 표시될 수 있습니다.<br>
 {% hint style="info" %}릴레이 표기에 대한 자세한 설명은 
-[Hi6 내장 PLC 릴레이의 표기 설명서 ](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)를 참고해 주십시오 
+[${cont_model} 내장 PLC 릴레이의 표기 설명서 ](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)를 참고해 주십시오 
 {% endhint %}
 <br>
 래더 편집 기능에서는 HRLadder와 동일한 방식으로 4가지 형식 중 1가지를 선택하여 래더 다이어그램에 보여주는 기능을 가지고 있습니다.<br>
@@ -197,7 +197,7 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
 
 {% hint style="info" %}  
 - 모니터링 결과는 HRLadder와 동일하므로 자세한 설명은 HRLadder 설명서를 참고해 주십시오.<br>
-- 내장 PLC 동작 모드에 대한 자세한 설명은 [Hi6 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)를  참고해 주십시오.  
+- 내장 PLC 동작 모드에 대한 자세한 설명은 [${cont_model} 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)를  참고해 주십시오.  
 {% endhint %}
 
 1. 하단 버튼 바 도구 > R.RUN 혹은 R.STOP 버튼을 통해 내장 PLC의 동작모드를 Remote Run 혹은 Remote Stop 상태로 변경할 수 있습니다.<br><Br>
