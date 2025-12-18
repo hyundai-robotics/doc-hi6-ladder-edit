@@ -1,25 +1,25 @@
-﻿# Hi6 Robot Controller Function Manual - Ladder Edit
+﻿# ${cont_model} Robot Controller Function Manual - Ladder Edit
 
-{% hint style="warning" %} The information provided in this product manual is the property of Hyundai Robotics.
+{% hint style="warning" %} The information provided in this product manual is the property of HD Hyundai Robotics.
 
-It cannot be reproduced or redistributed in part or whole without written consent from Hyundai Robotics, and it cannot be provided to third parties or used for other purposes.
+It cannot be reproduced or redistributed in part or whole without written consent from HD Hyundai Robotics, and it cannot be provided to third parties or used for other purposes.
 
 The manual is subject to change without prior notification.
 
-Copyright ⓒ 2025 by Hyundai Robotics {% endhint %}# 1. Intro
+Copyright ⓒ 2025 by HD Hyundai Robotics {% endhint %}# 1. Intro
 
 {% hint style="info" %}This feature is supported from version V60.32-00 and later.
 
 {% endhint %}# 1.1 Ladder Edit
 
-The Ladder Edit function of the Hi6 controller is an embedded feature that allows users to directly create and edit ladder programs for the Hi6's built-in PLC.
+The Ladder Edit function of the ${cont_model} controller is an embedded feature that allows users to directly create and edit ladder programs for the ${cont_model}'s built-in PLC.
 
-The editing method is similar to HRLadder, a dedicated ladder editing PC software for Hyundai Robotics. Therefore, users who have experience editing ladder programs using HRLadder will be able to quickly familiarize themselves with the function through this manual.
+The editing method is similar to HRLadder, a dedicated ladder editing PC software for HD Hyundai Robotics. Therefore, users who have experience editing ladder programs using HRLadder will be able to quickly familiarize themselves with the function through this manual.
 
-- HRLadder can be downloaded by searching for it on the Hyundai Robotics website (https://www.hd-hyundairobotics.com/main) - Customer Support - Download Center.
+- HRLadder can be downloaded by searching for it on the HD Hyundai Robotics website (https://www.hd-hyundairobotics.com/main) - Customer Support - Download Center.
 - For instructions on how to use HRLadder, please refer to the user manual linked in the help menu of HRLadder.
 
-{% hint style="info" %} For information on the Hi6 controller settings, relays, and the built-in PLC, please refer to the [ Hi6 Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 
+{% hint style="info" %} For information on the ${cont_model} controller settings, relays, and the built-in PLC, please refer to the [ ${cont_model} Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 
 
 {% endhint %}  
 # 2. Starting Ladder Edit
@@ -93,7 +93,7 @@ For more detailed editing instructions, please refer to the Ladder Diagram Editi
 <br><br>
 # 3.3 Tag Format
 The 1-bit data in the relay index can be entered and displayed in one of four formats: 1-bit, 8-bit, 16-bit, or 32-bit.<br>
-{% hint style="info" %}For more details on relay notation, please refer to the [Hi6 Embedded PLC Relay Notation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)
+{% hint style="info" %}For more details on relay notation, please refer to the [${cont_model} Embedded PLC Relay Notation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)
 
 {% endhint %}
 <br>
@@ -195,7 +195,7 @@ This function monitors the current relay value status of the robot controller's 
 
 {% hint style="info" %}  
 - The monitoring results are the same as in HRLadder, so please refer to the HRLadder manual for more detailed explanations.<br>
-- For more information on the built-in PLC operation mode, please refer to the [Hi6 Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)
+- For more information on the built-in PLC operation mode, please refer to the [${cont_model} Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)
 
 {% endhint %}
 

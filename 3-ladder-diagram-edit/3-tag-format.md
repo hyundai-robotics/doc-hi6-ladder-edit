@@ -1,6 +1,6 @@
 # 3.3 Tag Format
 The 1-bit data in the relay index can be entered and displayed in one of four formats: 1-bit, 8-bit, 16-bit, or 32-bit.<br>
-{% hint style="info" %}For more details on relay notation, please refer to the [Hi6 Embedded PLC Relay Notation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)
+{% hint style="info" %}For more details on relay notation, please refer to the [${cont_model} Embedded PLC Relay Notation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)
 
 {% endhint %}
 <br>

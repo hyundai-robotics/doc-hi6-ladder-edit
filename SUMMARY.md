@@ -1,5 +1,5 @@
 # Table of contents
-* [Hi6 Robot Controller Function Manual - Ladder Edit](README.md)
+* [${cont_model} Robot Controller Function Manual - Ladder Edit](README.md)
 * [1. Intro](1-intro/README.md)
     * [1.1 Ladder Edit](1-intro/1-ladder-edit.md)
 * [2. Starting Ladder Edit ](2-ladder-edit-start/README.md)
