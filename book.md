@@ -26,8 +26,9 @@ The editing method is similar to HRLadder, a dedicated ladder editing PC softwar
 This section explains the location and process to execute the Ladder Edit function.# 2.1. Initial Screen
 Let’s execute the Ladder Edit function.
 
-1. Touch the [pane layout] button on the right side of the screen, the [split] button at the bottom, and then the [select] button at the lower left in sequence. The panel selection window will appear.<br><br>
+1. Touch the [pane Layout] button on the right side of the screen and the [split] button at the bottom. Then, touch the split monitoring window, followed by the [select] button in the lower-left corner. The panel selection window will appear.<br><br>
     <img src="../_assets/split_window_en.png" width="600">
+    <img src="../_assets/split_window2_en.png" width="600">
     <br><br>
 
 2. Select Edit Ladder in the panel selection window.<br><br>
