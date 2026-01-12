@@ -1,11 +1,12 @@
 {
     "langCode": "ko",
-    "series": "현대로봇 Hi6 제어기",
-    "title": "Hi6 로봇제어기 기능설명서 - 래더 편집 (Ladder Edit)",
+    "series": "${cont_model} 제어기",
+    "title": "기능설명서 - 래더 편집 (Ladder Edit)",
     "publisher": "HD현대로보틱스",
     "tocTitle": "목차",
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
-    "variables": {
-        "cont_model": "Hi6"
-    }
+    "docId": "${cont_model:upper}LADDEREDIT_KO_001",
+    "references": [
+        { "rpath" : "doc-hi6-operation/ko-tp630" }
+    ]
 }
