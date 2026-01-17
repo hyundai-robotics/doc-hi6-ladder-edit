@@ -1,23 +1,15 @@
-﻿# ${cont_model} 로봇제어기 기능설명서 - 래더 편집 (Ladder Edit)
+﻿
+[__SOURCE](README.md)
+# ${cont_model} 제어기 기능설명서 - 래더 편집 (Ladder Edit)
 
-{% hint style="warning" %}
-본 제품 설명서에서 제공되는 정보는 HD현대로보틱스의 자산입니다.
-
-HD현대로보틱스의 서면에 의한 동의 없이 전부 또는 일부를 무단 전재 및 재배포할 수 없으며, 제3자에게 제공되거나 다른 목적에 사용할 수 없습니다.
-
-
-
-본 설명서는 사전 예고 없이 변경될 수 있습니다.
-
-
-
-**Copyright ⓒ 2025 by HD Hyundai Robotics**
-{% endhint %}
+[__SOURCE](1-intro/README.md)
 # 1. 개요
 
 {% hint style="info" %}
 본 기능은 V60.32-00 및 이후 버전부터 지원됩니다.
-{% endhint %}# 1.1 래더 편집(Ladder Edit)
+{% endhint %}
+[__SOURCE](1-intro/1-ladder-edit.md)
+# 1.1 래더 편집(Ladder Edit)
 
 ${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} 내장 PLC를 통해 구동할 래더 프로그램을 사용자가 직접 작성 및 편집할 수 있는 ${cont_model} 제어기 내장 기능입니다.
 
@@ -27,11 +19,15 @@ ${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} �
 * HRLadder의 사용법은 HRLadder의 도움말 메뉴에 연결된 기능설명서를 참조하십시오.
 
 
-{% hint style="info" %} ${cont_model} 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [${cont_model} 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 를 참조하시기 바랍니다.
+{% hint style="info" %} ${cont_model} 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [${cont_model} 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/ko/README?cont_model=${cont_model}) 를 참조하시기 바랍니다.
 
 {% endhint %}  
+
+[__SOURCE](2-ladder-edit-start/README.md)
 # 2. 래더 편집 시작
-래더 편집 기능의 위치 및 실행하기 위한 과정을 설명드립니다.# 2.1. 초기 화면
+래더 편집 기능의 위치 및 실행하기 위한 과정을 설명드립니다.
+[__SOURCE](2-ladder-edit-start/1-initial_screen.md)
+# 2.1. 초기 화면
 래더 편집 기능을 실행해보겠습니다.
 
 1. 화면 우측의 [창조정] 버튼과 하단의 [분할] 버튼을 터치한 후 분할된 모니터링 창을 터치하십시오. 이후 왼쪽 하단의 [선택] 버튼까지 순서대로 터치 하십시오. 패널 선택창이 나타납니다.<br><br>
@@ -76,8 +72,12 @@ ${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} �
     </tr>
 </table>
 
+
+[__SOURCE](3-ladder-diagram-edit/README.md)
 # 3. 래더 다이어그램 편집
-래더 다이어그램의 편집에 대해서 설명드립니다.# 3.1 요소 삽입
+래더 다이어그램의 편집에 대해서 설명드립니다.
+[__SOURCE](3-ladder-diagram-edit/1-insert-element.md)
+# 3.1 요소 삽입
 래더 다이어그램을 편집하는 방식은 HRLadder의 편집 방식과 유사하므로 더 자세한 설명은 HRLadder 설명서의 기본 편집 항목을 확인하여 주십시오. 
 
 1. 모든 요소의 삽입은 하단 버튼 바의 삽입 버튼을 통해 확인하실 수 있습니다.<br><br>
@@ -86,6 +86,8 @@ ${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} �
 
 2. 다른 요소들을 확인하고 싶다면 이전/다음 버튼을 터치하시면 됩니다.<br><br>
     <img src="../_assets/insert_move_next_prev.png" width ="500" ><br><br>
+
+[__SOURCE](3-ladder-diagram-edit/2-editing-features.md)
 # 3.2 편집 기능
 다른 편집 기능들도 HRLadder의 기능과 동일합니다.<br>
 더 자세한 편집 방법은 HRLadder 설명서의 래더 다이어그램 편집 항목을 확인해 주십시오.
@@ -98,10 +100,12 @@ ${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} �
     <img src="../_assets/f_btn_edit_menu.png" width ="500"><br><br>
 
 3. [Del]키를 누르면 선택된 명령어들, 혹은 선택된 Rung 이나 브랜치가 삭제됩니다.<br><br>
+
+[__SOURCE](3-ladder-diagram-edit/3-tag-format.md)
 # 3.3 태그형식
 릴레이 인덱스 중 1비트 데이터는 1 비트, 8비트, 16비트, 32비트 4가지 형식 중 하나로 입력하고 표시될 수 있습니다.<br>
 {% hint style="info" %}릴레이 표기에 대한 자세한 설명은 
-[${cont_model} 내장 PLC 릴레이의 표기 설명서 ](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)를 참고해 주십시오 
+[${cont_model} 내장 PLC 릴레이의 표기 설명서 ](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/ko/3-relay/2-relay-expression?cont_model=${cont_model})를 참고해 주십시오 
 {% endhint %}
 <br>
 래더 편집 기능에서는 HRLadder와 동일한 방식으로 4가지 형식 중 1가지를 선택하여 래더 다이어그램에 보여주는 기능을 가지고 있습니다.<br>
@@ -110,7 +114,9 @@ ${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} �
 <img src="../_assets/f_btn_layout.png" width ="415"><br>
 <img src="../_assets/f_btn_tag_format.png" width ="250"><br>
 
-2. 태그형식 버튼을 누를 때 마다, 표시 형식은 1비트 -> 8비트 -> 16비트 -> 32비트로 순환합니다.# 3.4 찾기 및  바꾸기
+2. 태그형식 버튼을 누를 때 마다, 표시 형식은 1비트 -> 8비트 -> 16비트 -> 32비트로 순환합니다.
+[__SOURCE](3-ladder-diagram-edit/4-find-and-replace.md)
+# 3.4 찾기 및  바꾸기
 래더 파일의 전체를 검색하여 지정한 문자열을 찾아내거나 찾은 문자열을 지정한 다른 문자열로 바꾸는 기능입니다.<br>
 
 HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder 설명서의 찾기와 바꾸기 항목을 참고해 주십시오.<br>
@@ -125,6 +131,8 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
 {% hint style="info" %}문자 입력은 전부 바꾸기 버튼 아래의 키보드 버튼을 누른 후 소프트 키보드를 사용하시면 됩니다.
 
 {% endhint %}  
+
+[__SOURCE](3-ladder-diagram-edit/5-syntax-check.md)
 # 3.5 문법 검사
 작성된 래더 다이어그램이 문법적으로 틀린 곳이 없는 지 체크하는 기능입니다.
 
@@ -136,8 +144,12 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
     <img src="../_assets/error_message.png" width ="400" ><br><br>
     만약 에러가 없다면 "No Error" 라는 문구가 담긴 메시지가 팝업됩니다.<br><br>
     <img src="../_assets/no_error_message.png" width ="400" ><br>
+
+[__SOURCE](3-ladder-diagram-edit/6-file/README.md)
 # 3.6 래더 파일
 파일 저장 및 불러오는 방법에 대한 설명입니다.
+
+[__SOURCE](3-ladder-diagram-edit/6-file/1-file-save.md)
 # 3.6.1 파일 저장하기
 래더 파일을 저장하는 방법입니다.
 
@@ -161,6 +173,8 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
     <img src="../../_assets/file_save_name_edit.png" width ="500" ><br>
     
     (현재 저장하고자 하는 래더파일이 래더 파일 이름 형식에 맞지 않다면 S00으로 파일이름이 지정됩니다.)
+
+[__SOURCE](3-ladder-diagram-edit/6-file/2-file-load.md)
 # 3.6.2 파일 불러오기
 파일 불러오기 기능을 통해 저장한 파일이 잘 저장되었는지 확인해보겠습니다.
 
@@ -177,7 +191,9 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
 
     {% hint style="info" %}파일 불러오기 기능을 통해서 확장자가 lad 혹은 LAD 인 파일만 불러올 수 있습니다.
     
-    {% endhint %}# 3.6.3 새 파일
+    {% endhint %}
+[__SOURCE](3-ladder-diagram-edit/6-file/3-new-file.md)
+# 3.6.3 새 파일
 새로운 래더 파일을 만들고 싶거나 초기 상태의 래더 편집 기능으로 돌아가고 싶은 경우 새 파일 기능을 사용할 수 있습니다. 
 
 1. 하단 버튼 바의 파일 > 새 파일 버튼을 눌러보겠습니다.<br><br>
@@ -192,13 +208,17 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
     - 아니요를 누르게 되면 새 파일 상태가 됩니다.
     - 취소를 누르게 되면 새파일 기능 호출이 취소됩니다.
 
+
+[__SOURCE](4-monitoring/README.md)
 # 4. 모니터링
-래더 다이어그램의 모니터링 기능에 대해서 설명드립니다.# 4.1. PLC 모니터링
+래더 다이어그램의 모니터링 기능에 대해서 설명드립니다.
+[__SOURCE](4-monitoring/1-plc-monitoring.md)
+# 4.1. PLC 모니터링
 로봇제어기의 내장 PLC의 현재 릴레이값 상태를 모니터링 하는 기능입니다.<br>
 
 {% hint style="info" %}  
 - 모니터링 결과는 HRLadder와 동일하므로 자세한 설명은 HRLadder 설명서를 참고해 주십시오.<br>
-- 내장 PLC 동작 모드에 대한 자세한 설명은 [${cont_model} 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)를  참고해 주십시오.  
+- 내장 PLC 동작 모드에 대한 자세한 설명은 [${cont_model} 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/ko/2-rc-setting/1-plc-mode-set?cont_model=${cont_model})를  참고해 주십시오.  
 {% endhint %}
 
 1. 하단 버튼 바 도구 > R.RUN 혹은 R.STOP 버튼을 통해 내장 PLC의 동작모드를 Remote Run 혹은 Remote Stop 상태로 변경할 수 있습니다.<br><Br>
@@ -216,6 +236,8 @@ HRLadder와 동일한 기능이기에 각 항목들에 대한 설명은 HRLadder
 
 
 
+
+[__SOURCE](4-monitoring/2-checksum-compare.md)
 # 4.2 체크섬 비교
 내장 PLC가 RUN 혹은 Remote Run 상태인 경우, 현재 확인 중인 래더 다이어그램과 내장 PLC에 다운로드된 파일을 비교해주는 체크섬 비교 기능을 제공합니다. <br>
 

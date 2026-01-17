@@ -1,4 +1,4 @@
-# 1.1 래더 편집(Ladder Edit)
+﻿# 1.1 래더 편집(Ladder Edit)
 
 ${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} 내장 PLC를 통해 구동할 래더 프로그램을 사용자가 직접 작성 및 편집할 수 있는 ${cont_model} 제어기 내장 기능입니다.
 
@@ -8,6 +8,6 @@ ${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} �
 * HRLadder의 사용법은 HRLadder의 도움말 메뉴에 연결된 기능설명서를 참조하십시오.
 
 
-{% hint style="info" %} ${cont_model} 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [${cont_model} 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 를 참조하시기 바랍니다.
+{% hint style="info" %} ${cont_model} 제어기 설정, 릴레이, 내장 PLC에 대한 설명은 [${cont_model} 내장 PLC 설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/ko/README?cont_model=${cont_model}) 를 참조하시기 바랍니다.
 
 {% endhint %}  

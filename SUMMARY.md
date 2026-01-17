@@ -1,5 +1,5 @@
-# Table of contents
-* [${cont_model} 로봇제어기 기능설명서 - 래더 편집 (Ladder Edit)](README.md)
+﻿# Table of contents
+* [${cont_model} 제어기 기능설명서 - 래더 편집 (Ladder Edit)](README.md)
 * [1. 개요](1-intro/README.md)
     * [1.1 래더 편집](1-intro/1-ladder-edit.md)
 * [2. 래더 편집 시작](2-ladder-edit-start/README.md)
