@@ -1,4 +1,4 @@
-# 3.2 Editing Features
+﻿# 3.2 Editing Features
 Other editing functions are the same as the features in HRLadder.<br>
 For more detailed editing instructions, please refer to the Ladder Diagram Editing section in the HRLadder manual.
 1. The branch gap option makes it easier to edit branches.<br>

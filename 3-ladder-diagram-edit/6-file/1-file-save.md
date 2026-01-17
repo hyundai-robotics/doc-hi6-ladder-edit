@@ -1,4 +1,4 @@
-# 3.6.1 File Save
+﻿# 3.6.1 File Save
 This section explains how to save a ladder file.
 
 1.  Press the File > Save button on the bottom button bar.<br><br>

@@ -1,16 +1,15 @@
-﻿# ${cont_model} Robot Controller Function Manual - Ladder Edit
+﻿
+[__SOURCE](README.md)
+# ${cont_model} Controller Function Manual - Ladder Edit
 
-{% hint style="warning" %} The information provided in this product manual is the property of HD Hyundai Robotics.
-
-It cannot be reproduced or redistributed in part or whole without written consent from HD Hyundai Robotics, and it cannot be provided to third parties or used for other purposes.
-
-The manual is subject to change without prior notification.
-
-Copyright ⓒ 2025 by HD Hyundai Robotics {% endhint %}# 1. Intro
+[__SOURCE](1-intro/README.md)
+# 1. Intro
 
 {% hint style="info" %}This feature is supported from version V60.32-00 and later.
 
-{% endhint %}# 1.1 Ladder Edit
+{% endhint %}
+[__SOURCE](1-intro/1-ladder-edit.md)
+# 1.1 Ladder Edit
 
 The Ladder Edit function of the ${cont_model} controller is an embedded feature that allows users to directly create and edit ladder programs for the ${cont_model}'s built-in PLC.
 
@@ -19,12 +18,16 @@ The editing method is similar to HRLadder, a dedicated ladder editing PC softwar
 - HRLadder can be downloaded by searching for it on the HD Hyundai Robotics website (https://www.hd-hyundairobotics.com/main) - Customer Support - Download Center.
 - For instructions on how to use HRLadder, please refer to the user manual linked in the help menu of HRLadder.
 
-{% hint style="info" %} For information on the ${cont_model} controller settings, relays, and the built-in PLC, please refer to the [ ${cont_model} Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 
+{% hint style="info" %} For information on the ${cont_model} controller settings, relays, and the built-in PLC, please refer to the [ ${cont_model} Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=${cont_model}) 
 
 {% endhint %}  
+
+[__SOURCE](2-ladder-edit-start/README.md)
 # 2. Starting Ladder Edit
-This section explains the location and process to execute the Ladder Edit function.# 2.1. Initial Screen
-Let’s execute the Ladder Edit function.
+This section explains the location and process to execute the Ladder Edit function.
+[__SOURCE](2-ladder-edit-start/1-initial_screen.md)
+# 2.1. Initial Screen
+Let's execute the Ladder Edit function.
 
 1. Touch the [pane Layout] button on the right side of the screen and the [split] button at the bottom. Then, touch the split monitoring window, followed by the [select] button in the lower-left corner. The panel selection window will appear.<br><br>
     <img src="../_assets/split_window_en.png" width="600">
@@ -69,8 +72,12 @@ Here is an explanation of the functions of each button.<br>
     </tr>
 </table>
 
+
+[__SOURCE](3-ladder-diagram-edit/README.md)
 # 3. Ladder Diagram Editing
-This section explains the editing of the ladder diagram.# 3.1 Insert Element
+This section explains the editing of the ladder diagram.
+[__SOURCE](3-ladder-diagram-edit/1-insert-element.md)
+# 3.1 Insert Element
 The method of editing the ladder diagram is similar to the editing method of HRLadder, so for more detailed instructions, please refer to the basic editing section in the HRLadder manual.
 
 1. The insertion of all elements can be accessed through the Insert button on the bottom button bar.<br><br>
@@ -79,6 +86,8 @@ The method of editing the ladder diagram is similar to the editing method of HRL
 
 2. To check other elements, you can touch the prev/next buttons.<br><br>
     <img src="../_assets/insert_move_next_prev_en.png" width ="500" ><br><br>
+
+[__SOURCE](3-ladder-diagram-edit/2-editing-features.md)
 # 3.2 Editing Features
 Other editing functions are the same as the features in HRLadder.<br>
 For more detailed editing instructions, please refer to the Ladder Diagram Editing section in the HRLadder manual.
@@ -92,9 +101,11 @@ For more detailed editing instructions, please refer to the Ladder Diagram Editi
 
 3. Press the [Del] key to delete the selected instructions, or the selected Rung or branch.
 <br><br>
+
+[__SOURCE](3-ladder-diagram-edit/3-tag-format.md)
 # 3.3 Tag Format
 The 1-bit data in the relay index can be entered and displayed in one of four formats: 1-bit, 8-bit, 16-bit, or 32-bit.<br>
-{% hint style="info" %}For more details on relay notation, please refer to the [${cont_model} Embedded PLC Relay Notation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/2-relay-expression)
+{% hint style="info" %}For more details on relay notation, please refer to the [${cont_model} Embedded PLC Relay Notation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/2-relay-expression?cont_model=${cont_model})
 
 {% endhint %}
 <br>
@@ -105,6 +116,8 @@ The 1-bit data in the relay index can be entered and displayed in one of four fo
 <img src="../_assets/f_btn_tag_format_en.png" width ="250"><br>
 
 2. Each time you press the Tag Format button, the display format cycles through 1-bit -> 8-bit -> 16-bit -> 32-bit.
+
+[__SOURCE](3-ladder-diagram-edit/4-find-and-replace.md)
 # 3.4 Find and Replace
 This function allows you to search the entire ladder file for a specified string or replace the found string with another specified string.<br>
 
@@ -120,6 +133,8 @@ Since this is the same feature as in HRLadder, please refer to the "Find and Rep
 {% hint style="info" %} To enter text, press the keyboard button below the Replace All button, and use the soft keyboard.
 
 {% endhint %}  
+
+[__SOURCE](3-ladder-diagram-edit/5-syntax-check.md)
 # 3.5 Syntax Check
 This function checks if there are any syntax errors in the created ladder diagram.
 
@@ -131,8 +146,12 @@ This function checks if there are any syntax errors in the created ladder diagra
     <img src="../_assets/error_message.png" width ="400" ><br><br>
     If there are no errors, a message with the text "No Error" will pop up.<br><br>
     <img src="../_assets/no_error_message.png" width ="400" ><br>
+
+[__SOURCE](3-ladder-diagram-edit/6-file/README.md)
 # 3.6 Ladder File
-This section explains how to save and load ladder files.# 3.6.1 File Save
+This section explains how to save and load ladder files.
+[__SOURCE](3-ladder-diagram-edit/6-file/1-file-save.md)
+# 3.6.1 File Save
 This section explains how to save a ladder file.
 
 1.  Press the File > Save button on the bottom button bar.<br><br>
@@ -158,6 +177,8 @@ This section explains how to save a ladder file.
     (If the ladder file name does not match the required format, the file name will be set to S00.)
 
 
+
+[__SOURCE](3-ladder-diagram-edit/6-file/2-file-load.md)
 # 3.6.2 File Load
 Let's verify if the file has been saved correctly using the File Load function.
 
@@ -174,7 +195,9 @@ Let's verify if the file has been saved correctly using the File Load function.
 
     {% hint style="info" %}The file load function only supports loading files with the extension .lad or .LAD
     
-    {% endhint %}# 3.6.3 New File
+    {% endhint %}
+[__SOURCE](3-ladder-diagram-edit/6-file/3-new-file.md)
+# 3.6.3 New File
 If you want to create a new ladder file or return to the initial state of the ladder editing function, you can use the New File function.
 
 1. Press the File > New File button on the bottom button bar.<br><br>
@@ -189,14 +212,18 @@ If you want to create a new ladder file or return to the initial state of the la
     - If you click No, the state will change to a new file.
     - If you click Cancel, the new file function will be canceled.
 
+
+[__SOURCE](4-monitoring/README.md)
 # 4. Monitoring
 This section explains the monitoring functions of the ladder diagram.
+
+[__SOURCE](4-monitoring/1-plc-monitoring.md)
 # 4.1. PLC Monitoring
 This function monitors the current relay value status of the robot controller's built-in PLC.<br>
 
 {% hint style="info" %}  
 - The monitoring results are the same as in HRLadder, so please refer to the HRLadder manual for more detailed explanations.<br>
-- For more information on the built-in PLC operation mode, please refer to the [${cont_model} Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/2-rc-setting/1-plc-mode-set)
+- For more information on the built-in PLC operation mode, please refer to the [${cont_model} Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/2-rc-setting/1-plc-mode-set?cont_model=${cont_model})
 
 {% endhint %}
 
@@ -215,6 +242,8 @@ This function monitors the current relay value status of the robot controller's 
 
 
 
+
+[__SOURCE](4-monitoring/2-checksum-compare.md)
 # 4.2 Checksum Compare
 When the built-in PLC is in RUN or Remote Run mode, a checksum comparison function is provided to compare the currently viewed ladder diagram with the file downloaded to the built-in PLC. <br>
 

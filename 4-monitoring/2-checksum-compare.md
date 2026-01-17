@@ -1,4 +1,4 @@
-# 4.2 Checksum Compare
+﻿# 4.2 Checksum Compare
 When the built-in PLC is in RUN or Remote Run mode, a checksum comparison function is provided to compare the currently viewed ladder diagram with the file downloaded to the built-in PLC. <br>
 
 1. If the currently viewed ladder diagram is different from the file downloaded to the built-in PLC, a "difference" indicator (<>) will appear next to the title at the top of the monitoring window.<br>

@@ -1,5 +1,5 @@
-# 2.1. Initial Screen
-Let’s execute the Ladder Edit function.
+﻿# 2.1. Initial Screen
+Let's execute the Ladder Edit function.
 
 1. Touch the [pane Layout] button on the right side of the screen and the [split] button at the bottom. Then, touch the split monitoring window, followed by the [select] button in the lower-left corner. The panel selection window will appear.<br><br>
     <img src="../_assets/split_window_en.png" width="600">

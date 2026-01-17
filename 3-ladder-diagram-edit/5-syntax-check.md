@@ -1,4 +1,4 @@
-# 3.5 Syntax Check
+﻿# 3.5 Syntax Check
 This function checks if there are any syntax errors in the created ladder diagram.
 
 1. Click the Tool button on the bottom button bar, then click the Check Syntax button.<br><br>

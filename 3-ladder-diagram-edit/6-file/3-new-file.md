@@ -1,4 +1,4 @@
-# 3.6.3 New File
+﻿# 3.6.3 New File
 If you want to create a new ladder file or return to the initial state of the ladder editing function, you can use the New File function.
 
 1. Press the File > New File button on the bottom button bar.<br><br>

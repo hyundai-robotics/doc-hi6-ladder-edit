@@ -1,4 +1,4 @@
-# 3.6.2 File Load
+﻿# 3.6.2 File Load
 Let's verify if the file has been saved correctly using the File Load function.
 
 1. First, press the File > New File button on the bottom button bar to return to the initial state.<br><Br>

@@ -1,4 +1,4 @@
-# 3.4 Find and Replace
+﻿# 3.4 Find and Replace
 This function allows you to search the entire ladder file for a specified string or replace the found string with another specified string.<br>
 
 Since this is the same feature as in HRLadder, please refer to the "Find and Replace" section in the HRLadder manual for explanations of each item.<br>

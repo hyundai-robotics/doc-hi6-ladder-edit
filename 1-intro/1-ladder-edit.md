@@ -1,4 +1,4 @@
-# 1.1 Ladder Edit
+﻿# 1.1 Ladder Edit
 
 The Ladder Edit function of the ${cont_model} controller is an embedded feature that allows users to directly create and edit ladder programs for the ${cont_model}'s built-in PLC.
 
@@ -7,6 +7,6 @@ The editing method is similar to HRLadder, a dedicated ladder editing PC softwar
 - HRLadder can be downloaded by searching for it on the HD Hyundai Robotics website (https://www.hd-hyundairobotics.com/main) - Customer Support - Download Center.
 - For instructions on how to use HRLadder, please refer to the user manual linked in the help menu of HRLadder.
 
-{% hint style="info" %} For information on the ${cont_model} controller settings, relays, and the built-in PLC, please refer to the [ ${cont_model} Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README) 
+{% hint style="info" %} For information on the ${cont_model} controller settings, relays, and the built-in PLC, please refer to the [ ${cont_model} Embedded PLC Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=${cont_model}) 
 
 {% endhint %}  
