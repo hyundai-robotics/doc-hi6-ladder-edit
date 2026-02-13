@@ -1,5 +1,6 @@
 ﻿# Table of contents
 * [${cont_model} Controller Function Manual - Ladder Edit](README.md)
+* [Precautions](0-about-this-manual/precautions.md)
 * [1. Intro](1-intro/README.md)
     * [1.1 Ladder Edit](1-intro/1-ladder-edit.md)
 * [2. Starting Ladder Edit ](2-ladder-edit-start/README.md)
