@@ -1,26 +1,24 @@
-﻿# 3.6.1 File Save
-This section explains how to save a ladder file.
+﻿# 3.6.1 文件保存
+本节解释如何保存梯形文件。
 
-1.  Press the File > Save button on the bottom button bar.<br><br>
+1.  按下底部按钮栏上的 文件 > 保存 按钮。<br><br>
     <img src="../../_assets/f_btn_file_en.png" width ="430" ><br>
     <img src="../../_assets/f_btn_save_en.png" width ="430" ><br>
     
-2. If there are no syntax errors, a file manager screen with a text field for entering the file name will appear.<br><br>
+2. 如果没有语法错误，将出现一个文件管理器屏幕，带有用于输入文件名的文本字段。<br><br>
     <img src="../../_assets/file_save_intro_en.png" width ="500" ><br>
-    - Item 1 is the file directory section, where you can set the directory where the file will be saved
-    - Item 2 is the list of files in the directory.
-    - Item 3 is the file name input field, where you can enter the name of the file to be saved.
-3. In the file name input field, enter the ladder file name in the format S00 and press the Enter button to complete the save.<br><br> 
+    - 项目 1 是文件目录部分，您可以设置文件将保存到的目录
+    - 项目 2 是目录中的文件列表。
+    - 项目 3 是文件名输入字段，您可以在其中输入要保存的文件名。
+3. 在文件名输入字段中，输入梯形文件名，格式为 S00，然后按 Enter 按钮以完成保存。<br><br> 
     <img src="../../_assets/file_save_name_edit_en.png" width ="500" ><br><br>
     {% hint style="info" %}
-    If the cursor is focused on the directory field, pressing the Enter button will not save the file. The Enter button must be pressed while the cursor is focused on either Item 2 or Item 3 to save the file
+    如果光标集中在目录字段上，按 Enter 按钮将不会保存文件。必须在光标集中在项目 2 或项目 3 时按 Enter 按钮才能保存文件
     
     {% endhint %}
-4. If you want to save the current file with a different name, you can use the File > Save As Other button on the bottom button bar to save the current ladder file with a different name.<br><br>
+4. 如果您想用不同的名称保存当前文件，可以使用底部按钮栏上的 文件 > 另存为 按钮以不同的名称保存当前梯形文件。<br><br>
 
-5. Pressing the Ladder Number Save button will display a file manager screen with the file name in the format S{Ladder Number}{Additional Description} in the file name input field. <br><br>
+5. 按下 梯形编号保存 按钮将显示一个文件管理器屏幕，文件名输入字段中的文件名格式为 S{梯形编号}{附加描述}。<br><br>
     <img src="../../_assets/file_save_name_edit_en.png" width ="500" ><br>
     
-    (If the ladder file name does not match the required format, the file name will be set to S00.)
-
-
+    （如果梯形文件名不符合所需格式，则文件名将设置为 S00。）

@@ -1,17 +1,17 @@
-﻿# 3.6.2 File Load
-Let's verify if the file has been saved correctly using the File Load function.
+﻿# 3.6.2 文件加载
+让我们验证文件是否已正确保存，使用文件加载功能。
 
-1. First, press the File > New File button on the bottom button bar to return to the initial state.<br><Br>
+1. 首先，点击底部按钮栏上的文件 > 新建文件按钮返回初始状态。<br><Br>
     <img src="../../_assets/f_btn_file_en.png" width ="430" ><br>
     <img src="../../_assets/f_btn_new_file_en.png" width ="430" ><br><br>
     <img src="../../_assets/new_file_result_en.png" width ="500" ><br>
     
-2. Clicking the Load button will open the file manager screen.<br><br>
+2. 点击加载按钮将打开文件管理器屏幕。<br><br>
     <img src="../../_assets/f_btn_load_file_en.png" width ="430" ><br><br>
     <img src="../../_assets/file_load_screen_en.png" width ="500" ><br><br>
 
-3. Hover over the saved S00.lad file and press the Enter button. You will see the saved file displayed on the current screen.<br>
+3. 将鼠标悬停在保存的 S00.lad 文件上并按下回车键。您将在当前屏幕上看到已保存的文件。<br>
 
-    {% hint style="info" %}The file load function only supports loading files with the extension .lad or .LAD
+    {% hint style="info" %}文件加载功能仅支持加载扩展名为 .lad 或 .LAD 的文件
     
     {% endhint %}

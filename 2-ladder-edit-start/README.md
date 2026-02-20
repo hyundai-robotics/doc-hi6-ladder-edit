@@ -1,2 +1,2 @@
-﻿# 2. Starting Ladder Edit
-This section explains the location and process to execute the Ladder Edit function.
+﻿# 2. 启动梯形图编辑
+本节解释了执行梯形图编辑功能的位置和过程。

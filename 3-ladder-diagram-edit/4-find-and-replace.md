@@ -1,15 +1,15 @@
-﻿# 3.4 Find and Replace
-This function allows you to search the entire ladder file for a specified string or replace the found string with another specified string.<br>
+﻿# 3.4 查找和替换
+此功能允许您在整个梯形图文件中搜索指定字符串或将找到的字符串替换为另一个指定字符串。<br>
 
-Since this is the same feature as in HRLadder, please refer to the "Find and Replace" section in the HRLadder manual for explanations of each item.<br>
+由于此功能与HRLadder中的相同，因此请参考HRLadder手册中的“查找和替换”部分，以获取每个项目的说明。<br>
 
-1. Click the Edit button on the bottom button bar, then click the Find and Replace button.<br><Br>
+1. 单击底部按钮栏上的编辑按钮，然后单击查找和替换按钮。<br><Br>
     <img src="../_assets/f_btn_edit_en.png" width ="415" ><br>
     <img src="../_assets/f_btn_find_and_change_en.png" width ="500" ><br>
 <br>
-2. The Find and Replace dialog will appear.<br><br>
+2. 查找和替换对话框将出现。<br><br>
 <img src="../_assets/find_and_change_dlg_en.png" width = "" ><br>
 
-{% hint style="info" %} To enter text, press the keyboard button below the Replace All button, and use the soft keyboard.
+{% hint style="info" %} 要输入文本，请按替换全部按钮下方的键盘按钮，并使用软键盘。
 
 {% endhint %}  
