@@ -7,6 +7,6 @@ ${cont_model} 控制器的梯形图编辑功能是一个嵌入式特性，允许
 - HRLadder 可以通过访问 HD 现代机器人网站 (https://www.hd-hyundairobotics.com/main) - 客户支持 - 下载中心 下载。
 - 有关 HRLadder 使用说明，请参考 HRLadder 帮助菜单中链接的用户手册。
 
-{% hint style="info" %} 有关 ${cont_model} 控制器设置、继电器和内置 PLC 的信息，请参考 [ ${cont_model} 嵌入式 PLC 手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=${cont_model}) 
+{% hint style="info" %} 有关 ${cont_model} 控制器设置、继电器和内置 PLC 的信息，请参考 [ ${cont_model} 嵌入式 PLC 手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/README?cont_model=${cont_model}) 
 
 {% endhint %}  

@@ -3,7 +3,7 @@
 
 {% hint style="info" %}  
 - 监控结果与HRLadder中相同，请参阅HRLadder手册以获取更详细的说明。<br>
-- 有关内置PLC操作模式的更多信息，请参阅[${cont_model} 嵌入式PLC手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/2-rc-setting/1-plc-mode-set?cont_model=${cont_model})
+- 有关内置PLC操作模式的更多信息，请参阅[${cont_model} 嵌入式PLC手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/2-rc-setting/1-plc-mode-set?cont_model=${cont_model})
 
 {% endhint %}
 

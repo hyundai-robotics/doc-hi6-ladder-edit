@@ -1,6 +1,6 @@
 ﻿# 3.3 标签格式
 继电器索引中的1位数据可以以四种格式之一输入和显示：1位、8位、16位或32位。<br>
-{% hint style="info" %}有关继电器表示法的更多详细信息，请参阅 [${cont_model} 嵌入式PLC继电器表示法手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/2-relay-expression?cont_model=${cont_model})
+{% hint style="info" %}有关继电器表示法的更多详细信息，请参阅 [${cont_model} 嵌入式PLC继电器表示法手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/3-relay/2-relay-expression?cont_model=${cont_model})
 
 {% endhint %}
 <br>
