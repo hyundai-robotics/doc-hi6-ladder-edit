@@ -1,10 +1,18 @@
 ﻿
 [__SOURCE](README.md)
 # ${cont_model} 控制器功能手册 - 梯形编辑
+[__SOURCE](0-about-this-manual/README.md)
+# 关于手册
+
 [__SOURCE](0-about-this-manual/precautions.md)
 # 注意事项
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/zh/precautions.md" %}
+{% include file="zh/precautions.md" %}
+[__SOURCE](0-about-this-manual/safety-notice.md)
+# 安全注意事项
+
+{% include file="zh/safety-notice.md" %}
+
 [__SOURCE](1-intro/README.md)
 # 1. 引言
 
@@ -21,7 +29,7 @@ ${cont_model} 控制器的梯形图编辑功能是一个嵌入式特性，允许
 - HRLadder 可以通过访问 HD 现代机器人网站 (https://www.hd-hyundairobotics.com/main) - 客户支持 - 下载中心 下载。
 - 有关 HRLadder 使用说明，请参考 HRLadder 帮助菜单中链接的用户手册。
 
-{% hint style="info" %} 有关 ${cont_model} 控制器设置、继电器和内置 PLC 的信息，请参考 [ ${cont_model} 嵌入式 PLC 手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=${cont_model}) 
+{% hint style="info" %} 有关 ${cont_model} 控制器设置、继电器和内置 PLC 的信息，请参考 [ ${cont_model} 嵌入式 PLC 手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/README?cont_model=${cont_model}) 
 
 {% endhint %}  
 [__SOURCE](2-ladder-edit-start/README.md)
@@ -103,7 +111,7 @@ ${cont_model} 控制器的梯形图编辑功能是一个嵌入式特性，允许
 [__SOURCE](3-ladder-diagram-edit/3-tag-format.md)
 # 3.3 标签格式
 继电器索引中的1位数据可以以四种格式之一输入和显示：1位、8位、16位或32位。<br>
-{% hint style="info" %}有关继电器表示法的更多详细信息，请参阅 [${cont_model} 嵌入式PLC继电器表示法手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/2-relay-expression?cont_model=${cont_model})
+{% hint style="info" %}有关继电器表示法的更多详细信息，请参阅 [${cont_model} 嵌入式PLC继电器表示法手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/3-relay/2-relay-expression?cont_model=${cont_model})
 
 {% endhint %}
 <br>
@@ -212,7 +220,7 @@ ${cont_model} 控制器的梯形图编辑功能是一个嵌入式特性，允许
 
 {% hint style="info" %}  
 - 监控结果与HRLadder中相同，请参阅HRLadder手册以获取更详细的说明。<br>
-- 有关内置PLC操作模式的更多信息，请参阅[${cont_model} 嵌入式PLC手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/2-rc-setting/1-plc-mode-set?cont_model=${cont_model})
+- 有关内置PLC操作模式的更多信息，请参阅[${cont_model} 嵌入式PLC手册](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/2-rc-setting/1-plc-mode-set?cont_model=${cont_model})
 
 {% endhint %}
 

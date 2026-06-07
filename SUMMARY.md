@@ -1,7 +1,9 @@
 ﻿# Table of contents
 
 * [${cont_model} 控制器功能手册 - 梯形编辑](README.md)
-* [注意事项](0-about-this-manual/precautions.md)
+* [关于手册](0-about-this-manual/README.md)
+  * [注意事项](0-about-this-manual/precautions.md)
+  * [安全注意事项](0-about-this-manual/safety-notice.md)
 * [1. 引言](1-intro/README.md)
   * [1.1 梯形图编辑](1-intro/1-ladder-edit.md)
 * [2. 启动梯形图编辑](2-ladder-edit-start/README.md)
