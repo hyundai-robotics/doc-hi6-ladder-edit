@@ -1,6 +1,8 @@
 ﻿# Table of contents
 * [${cont_model} 제어기 기능설명서 - 래더 편집 (Ladder Edit)](README.md)
-* [사전 주의사항](0-about-this-manual/precautions.md)
+* [이 설명서에 대하여](0-about-this-manual/README.md)
+  * [사전 주의사항](0-about-this-manual/precautions.md)
+  * [안전 주의 사항](0-about-this-manual/safety-notice.md)
 * [1. 개요](1-intro/README.md)
     * [1.1 래더 편집](1-intro/1-ladder-edit.md)
 * [2. 래더 편집 시작](2-ladder-edit-start/README.md)
