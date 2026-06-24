@@ -113,7 +113,7 @@ ${cont_model} 제어기의 래더 편집(Ladder Edit) 기능은 ${cont_model} �
     <img src="../_assets/f_btn_edit.png" width ="415"><br>
     <img src="../_assets/f_btn_edit_menu.png" width ="500"><br><br>
 
-3. [Del]키를 누르면 선택된 명령어들, 혹은 선택된 Rung 이나 브랜치가 삭제됩니다.<br><br>
+3. [SHIFT]+[DEL]키를 누르면 선택된 명령어들, 혹은 선택된 Rung 이나 브랜치가 삭제됩니다.<br><br>
 
 [__SOURCE](3-ladder-diagram-edit/3-tag-format.md)
 # 3.3 태그형식
