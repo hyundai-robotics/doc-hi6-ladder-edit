@@ -112,7 +112,7 @@ For more detailed editing instructions, please refer to the Ladder Diagram Editi
     <img src="../_assets/f_btn_edit_en.png" width ="415"><br>
     <img src="../_assets/f_btn_edit_menu_en.png" width ="500"><br><br>
 
-3. Press the [Del] key to delete the selected instructions, or the selected Rung or branch.
+3. Press the [SHIFT]+[DEL] key to delete the selected instructions, or the selected Rung or branch.
 <br><br>
 
 [__SOURCE](3-ladder-diagram-edit/3-tag-format.md)
