@@ -1,5 +1,5 @@
-﻿# 1. Intro
+# 1. 介绍
 
-{% hint style="info" %}This feature is supported from version V60.32-00 and later.
+{% hint style="info" %}此功能在版本 V60.32-00及之后的版本中支持。
 
 {% endhint %}

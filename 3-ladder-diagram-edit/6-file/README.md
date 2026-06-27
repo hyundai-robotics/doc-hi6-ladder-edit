@@ -1,2 +1,2 @@
-﻿# 3.6 Ladder File
-This section explains how to save and load ladder files.
+﻿# 3.6 梯形图文件
+本节解释如何保存和加载梯形图文件。

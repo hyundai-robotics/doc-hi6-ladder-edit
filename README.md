@@ -1,1 +1,1 @@
-﻿# ${cont_model} Controller Function Manual - Ladder Edit
+# ${cont_model} 控制器功能手册 - 梯形编辑

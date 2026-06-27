@@ -1,2 +1,2 @@
-﻿# 3. Ladder Diagram Editing
-This section explains the editing of the ladder diagram.
+﻿# 3. 梯形图编辑
+本节解释梯形图的编辑。

@@ -1,2 +1,2 @@
-﻿# 4. Monitoring
-This section explains the monitoring functions of the ladder diagram.
+﻿# 4. 监控
+本节解释梯形图的监控功能。
